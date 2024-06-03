@@ -1,0 +1,27 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.calculator {
+  display: grid;
+  gap: 1em;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.operators {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+button {
+  min-width: 30px;
+  font: inherit;
+}
